@@ -1,0 +1,59 @@
+*,**{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(247, 104, 127);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.learn{
+padding-top: 200px;
+padding-left: 220px;
+color: white;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form{
+    padding-top: 100px;
+}
+h1{
+  font-size: 40px;
+}
+h2{
+    font-weight: 400;
+    font-size: medium;
+} 
+#button{
+    width: 25rem; height: 40px;
+    border-radius: 5px;
+    color: white;
+    cursor:grab;
+    background-color: #260080;
+}
+#signup{
+    padding-top: 20px;
+    background-color: white;
+    width: 25rem;
+    height:20rem;
+}
+
+#fname, #lname, #email, #password{
+    width: 20rem; height: 35px;
+    border-radius: 5px;
+   
+}
+
+#submit{
+    width: 20rem; height: 40px;
+    border-radius: 5px;
+    background-color: rgba(7, 105, 7, 0.692);
+    color: white;
+    cursor:grab;
+}
+
+p{
+    color:grey;
+}
+
